@@ -116,9 +116,9 @@ main section h2 {
 .sponsors{
     max-width: 100%;
     padding: 40px 20px;
-    background-color: hsla(27, 93%, 25%, 1);
-    background-image: radial-gradient(circle at 11% 96%, hsla(12, 100%, 8%, 0.89) 37%, transparent 90%), radial-gradient(circle at 92% 89%, hsla(20, 75%, 37%, 0.85) 31%, transparent 84%), radial-gradient(circle at 62% 35%, hsla(10, 60%, 35%, 0.92) 22%, transparent 59%), radial-gradient(circle at 58% 7%, hsla(12, 0%, 0%, 0.95) 41%, transparent 61%), radial-gradient(circle at 2% 63%, hsla(2, 34%, 59%, 0.92) 19%, transparent 70%), radial-gradient(circle at 2% 63%, hsla(2, 34%, 59%, 0.92) 19%, transparent 70%);
-    background-blend-mode: normal, normal, normal, normal, normal, normal;
+    background-color: hsla(359, 100%, 50%, 1);
+    background-image: radial-gradient(circle at 0% 99%, hsla(11, 100%, 50%, 1) 0%, transparent 67%), radial-gradient(circle at 46% 94%, hsla(177, 100%, 50%, 1) 0%, transparent 81%), radial-gradient(circle at 89% 8%, hsla(55.00000000000001, 0%, 0%, 1) 0%, transparent 150%), radial-gradient(circle at 89% 8%, hsla(304, 100%, 9%, 1) 0%, transparent 150%), radial-gradient(circle at 89% 8%, hsla(206, 100%, 9%, 1) 0%, transparent 150%), radial-gradient(circle at 93% 95%, hsla(236, 100%, 23%, 1) 0%, transparent 66%), radial-gradient(circle at 89% 8%, hsla(0, 100%, 99%, 1) 0%, transparent 150%), radial-gradient(circle at 89% 8%, hsla(55, 94%, 54%, 1) 0%, transparent 150%);
+    background-blend-mode: normal, normal, normal, normal, normal, normal, normal, normal;
     text-align: center;
     color: #fff;
 }
