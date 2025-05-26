@@ -251,6 +251,55 @@ body{
 
 }
 
+.modalidad-atencion{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: hsla(305, 0%, 0%, 1);
+    background-image: radial-gradient(circle at 93% 93%, hsla(212, 0%, 0%, 0) 14.489998991212337%, transparent 72%), radial-gradient(circle at 26% 9%, hsla(212, 0%, 0%, 1) 0%, transparent 45%), radial-gradient(circle at 15% 79%, hsla(257.14285714285717, 91%, 27%, 1) 2.9253667596993065%, transparent 22.388851682060018%), radial-gradient(circle at 40% 104%, hsla(37.05882352941177, 100%, 50%, 1) 3.985353824694249%, transparent 47.580278608924694%), radial-gradient(circle at 0% 60%, hsla(224.44444444444443, 72%, 36%, 1) 2.391200382592061%, transparent 29.307684556768592%), radial-gradient(circle at 92% 37%, hsla(248.30769230769235, 52%, 24%, 1) 2.9253667596993065%, transparent 22.388851682060018%), radial-gradient(circle at 101% 16%, hsla(212.47058823529412, 100%, 50%, 1) 13.173642363290591%, transparent 31.747336520355095%), radial-gradient(circle at 104% 56%, hsla(29.117647058823533, 71%, 60%, 1) 3.985353824694249%, transparent 13.103042116379756%), radial-gradient(circle at 97% 19%, hsla(219.2079207920792, 83%, 23%, 1) 18.597054544690312%, transparent 31%);
+    background-blend-mode: normal, normal, normal, normal, normal, normal, normal, normal, normal;
+
+}
+
+.modalidad-atencion img {
+    padding: 30px;
+    width: 500px;
+    border-radius: 55px;
+    
+}
+
+.subtitulo-parrafo {
+    color: #ffece4;
+    text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black,
+     0 0 10px #813c0e,
+     0 0 20px #813c0e,
+     0 0 40px #813c0e;
+     font-size: 20px;
+     max-width: 800px;
+}
+
+.subtitulo-parrafo h2 {
+    font-size: 30px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    color:#ffece4;
+    text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black,
+     0 0 10px #813c0e,
+     0 0 20px #813c0e,
+     0 0 40px #813c0e;
+     font-family:"Bebas Neue", sans-serif;
+
+}
 
 
 /*!---------ESILOS MENU--------*/
