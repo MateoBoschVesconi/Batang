@@ -454,6 +454,21 @@ footer{
 } 
 } 
 
+@media screen and (max-width: 765px) {
+    .contenido-sobre-nosotros{
+        text-align: center;
+
+    }
+     .contenido-sobre-nosotros p {
+        max-width: 560px;
+     }
+     .subtitulo-parrafo p {
+        max-width: 560px;
+        text-align: center;
+     }
+}
+
+
 @media screen and (max-width: 675px) {
     .orden-tarjetas{
     display: grid;
@@ -471,14 +486,65 @@ footer{
     
 } 
 
+@media screen and (max-width: 559px){
+     .contenido-sobre-nosotros p {
+        max-width: 400px;
+     }
+
+     .subtitulo-parrafo p {
+        max-width: 400px;
+        text-align: center;
+     }
+
+
+} 
+
+
 @media screen and (max-width: 439px){
-.sponsors-titulo{
+    .sponsors-titulo{
         font-size: 58px;
     }
-main section h2{
+    main section h2{
     padding-left: 30px;
 
     }
+    .modalidad-atencion img {
+        width: 450px;
+    }
+
 }
 
+@media screen and (max-width: 429px){
+    .subtitulo-parrafo h2{
+        text-align: center;
+     }
+}
+
+@media screen and (max-width: 400px){
+    .contenido-sobre-nosotros p{
+        max-width: 250px;
+        margin-left: 5px;
+    }
+
+    .subtitulo-parrafo p {
+        max-width: 250px;
+        text-align: center;
+        margin-left: 75px;
+     }
+     .subtitulo-parrafo h2{
+        text-align: center;
+     }
+}
+
+@media screen and (max-width: 389px){
+    .modalidad-atencion img {
+        width: 390px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .subtitulo-parrafo p {
+        margin-left: 56px;
+     }
+}
 
