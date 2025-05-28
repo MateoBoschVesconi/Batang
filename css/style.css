@@ -308,6 +308,7 @@ body{
     background-color: hsla(187, 95%, 9%, 1);
     background-image: radial-gradient(circle at 12% 95%, hsla(0, 82%, 24%, 1) 11.233076274761304%, transparent 48.917760458821476%), radial-gradient(circle at 59% 89%, hsla(17, 65%, 48%, 1) 4.468828236460163%, transparent 45.936928445147885%), radial-gradient(circle at 98% 97%, hsla(180, 100%, 19%, 1) 9.099243699928666%, transparent 43.20400317747202%), radial-gradient(circle at 58% 24%, hsla(17, 43%, 13%, 1) 8.34456194441396%, transparent 45.21029724710546%), radial-gradient(circle at 85% 18%, hsla(212.75735294117646, 82%, 17%, 1) 8.34456194441396%, transparent 45.21029724710546%);
     background-blend-mode: normal, normal, normal, normal, normal;
+    padding-bottom:20px ;
 }
 
 .row {
@@ -349,16 +350,36 @@ body{
     background-color: #006363;
 }
 
+.preguntas-frecuentes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    flex-grow: 1;
+    align-items: center;
+    padding: 2rem;
+}
 
 .accordion {
-    display: flex;
     margin: 25px;
     flex-direction: column;
+    max-width: 800px;
+    width: 100%;
 }
 
 .accordion-item{
     width: 100%;
 }
+
+.accordion-header{
+    padding-top: 0;
+    padding-left: 0;
+}
+
+.preguntas-frecuentes img {
+    width: 270px;
+}
+
+
 /*!---------ESILOS MENU--------*/
 
 .titulo-menu{
@@ -390,7 +411,7 @@ footer{
     color: #01161E;
     background-color: #CC592B;
     width: 100%;
-    margin-top: 100%;
+    margin-top: auto;
 }
 
 .redes{
