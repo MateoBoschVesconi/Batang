@@ -1,0 +1,437 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Forum&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+    font-family: "Bebas Neue", sans-serif;
+    background-color: #CC592B; 
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    h1{
+
+        a{
+            text-decoration: none;
+            color: #01161E;
+            font-size: 50px;
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+
+
+
+}
+
+nav{
+
+
+    ul{
+        text-decoration: none;
+        color: #01161E;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        font-size: 20px;
+        margin-bottom: 0px;
+
+        li{
+
+            a{
+                text-decoration: none;
+                color: #01161E;
+            }
+        }
+        
+    }
+}
+
+.navbar-nav {
+    --bs-nav-link-hover-color: #006363;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: center;
+}
+
+
+main{
+    font-family: "Forum", serif;
+    color: #01161E;
+
+    section{
+
+        h2{
+            display: flex;
+        flex-direction: column;
+        align-items: start;
+        font-size: 90px;
+        padding-top: 150px;
+        padding-left: 150px;
+        text-shadow:
+        -1px -1px 0 #01161E,
+         1px -1px 0 #01161E,
+        -1px  1px 0 #01161E,
+         1px  1px 0 #01161E,
+         0 0 10px #CC592B,
+         0 0 20px #CC592B,
+         0 0 40px #CC592B;
+
+        }
+    }
+}
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../img/ChatGPT\ Image\ 22\ may\ 2025\,\ 13_59_31.png');
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #CC592B;
+    position: relative;
+        button{
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 25px;
+        width: 150px;
+        margin-top: 75px;
+        margin-left: 150px;
+        padding: 10px  20px;
+        background-color: #710B0B;
+        color: #01161E;
+        border: none;
+        border-radius: 7px;
+
+            a{
+                text-decoration: none;
+                color: #CC592B;
+            }
+    }
+}
+
+.sponsors{
+    max-width: 100%;
+    padding: 40px 20px;
+    background-color: hsla(359, 100%, 50%, 1);
+    background-image: radial-gradient(circle at 0% 99%, hsla(11, 100%, 50%, 1) 0%, transparent 67%), radial-gradient(circle at 46% 94%, hsla(177, 100%, 50%, 1) 0%, transparent 81%), radial-gradient(circle at 89% 8%, hsla(55.00000000000001, 0%, 0%, 1) 0%, transparent 150%), radial-gradient(circle at 89% 8%, hsla(304, 100%, 9%, 1) 0%, transparent 150%), radial-gradient(circle at 89% 8%, hsla(206, 100%, 9%, 1) 0%, transparent 150%), radial-gradient(circle at 93% 95%, hsla(236, 100%, 23%, 1) 0%, transparent 66%), radial-gradient(circle at 89% 8%, hsla(0, 100%, 99%, 1) 0%, transparent 150%), radial-gradient(circle at 89% 8%, hsla(55, 94%, 54%, 1) 0%, transparent 150%);
+    background-blend-mode: normal, normal, normal, normal, normal, normal, normal, normal;
+    text-align: center;
+    color: #fff;
+}
+
+.sponsors-titulo {
+    font-size: 75px;
+    margin-bottom: 30px;
+    align-items: center;
+    padding-left: 0;
+    padding-top: 30px;
+}
+
+.orden-tarjetas{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+        img {
+            width: 315px;
+            height: 300px;
+        }
+}
+
+
+.especialidades{
+    max-width: 100%;
+    padding: 40px 20px;
+    background-color: hsla(28, 30%, 14%, 1);
+    background-image: radial-gradient(circle at 23% 3%, hsla(18, 96%, 48%, 0.37) 3.1210986267166043%, transparent 76.4190383017679%), radial-gradient(circle at 100% 93%, hsla(354, 70%, 55%, 0.21) 3.1210986267166043%, transparent 45.38487571252063%), radial-gradient(circle at 0% 5%, hsla(33, 56%, 60%, 0.7) 3.1210986267166043%, transparent 40%), radial-gradient(circle at 96% 103%, hsla(288, 76%, 39%, 0.1) 3.1210986267166043%, transparent 50.0047517726123%), radial-gradient(circle at 80% 0%, hsla(326, 80%, 48%, 0.23) 3.1210986267166043%, transparent 24.819747276612727%);
+    background-blend-mode: normal, normal, normal, normal, normal;
+    text-align: center;
+}
+
+.tarjeta{
+    background-color: #710B0B;
+    height: 400px;
+    border-radius: 10px;
+    width: 315px;
+    margin: auto;
+    img{
+        border-radius: 10px;
+    }
+    button{
+        font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+    width: 150px;
+    padding: 10px  20px;
+    margin-top: 15px;
+    background-color: #CC592B;
+    color: #01161E;
+    border: none;
+    border-radius: 7px;
+    }
+}
+
+.delivery{
+    background: linear-gradient(rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.514)),
+    url('../img/ventajas-servicio-entrega-domicilio.jpg');
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h2{
+        font-size: 75px;
+    margin-bottom: 30px;
+    align-items: center;
+    padding-left: 0;
+    padding-top: 30px;
+    }
+    button{
+        font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+    width: 150px;
+    margin-top: 75px;
+    padding: 10px  20px;
+    background-color: #006363;
+    color: #01161E;
+    border: none;
+    border-radius: 7px;
+    align-items: center;
+        a{
+            text-decoration: none;
+            color: #CC592B;
+        }
+    }
+    
+}
+
+body{
+     background-color: hsla(0, 0%, 2%, 1);
+    background-image: radial-gradient(circle at 3% 6%, hsla(18.26086956521739, 72%, 49%, 1) 15%, transparent 65%), radial-gradient(circle at 3% 101%, hsla(0, 0%, 2%, 1) 13.797574811818231%, transparent 65%), radial-gradient(circle at 97% 7%, hsla(240, 7%, 29%, 1) 15%, transparent 65%), radial-gradient(circle at 98% 98%, hsla(0, 0%, 2%, 1) 15%, transparent 63.310997437284335%), radial-gradient(circle at 46% 98%, hsla(240, 0%, 2%, 1) 20.593893049449022%, transparent 49.606606188780056%);
+    background-blend-mode: normal, normal, normal, normal, normal;
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#sobre-nosotros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsla(0, 0%, 2%, 1);
+    background-image: radial-gradient(circle at 3% 6%, hsla(18.26086956521739, 72%, 49%, 1) 15%, transparent 65%), radial-gradient(circle at 3% 101%, hsla(0, 0%, 2%, 1) 13.797574811818231%, transparent 65%), radial-gradient(circle at 98% 98%, hsla(0, 0%, 2%, 1) 15%, transparent 63.310997437284335%), radial-gradient(circle at 97% 7%, hsla(240, 7%, 29%, 1) 15%, transparent 65%), radial-gradient(circle at 46% 98%, hsla(240, 0%, 2%, 1) 20.593893049449022%, transparent 49.606606188780056%);
+    background-blend-mode: normal, normal, normal, normal, normal;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-shadow:
+    -1px -1px 0 #01161E,
+     1px -1px 0 #01161E,
+    -1px  1px 0 #01161E,
+     1px  1px 0 #01161E,
+     0 0 10px #CC592B,
+     0 0 20px #CC592B,
+     0 0 40px #CC592B;
+        h1{
+            font-family: "Bebas Neue", sans-serif;
+        }
+
+}
+
+
+.contenido-sobre-nosotros {
+  max-width: 800px;
+  text-align: left;
+  margin-top: 35px;
+
+}
+.modalidad-atencion{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: hsla(305, 0%, 0%, 1);
+    background-image: radial-gradient(circle at 93% 93%, hsla(212, 0%, 0%, 0) 14.489998991212337%, transparent 72%), radial-gradient(circle at 26% 9%, hsla(212, 0%, 0%, 1) 0%, transparent 45%), radial-gradient(circle at 15% 79%, hsla(257.14285714285717, 91%, 27%, 1) 2.9253667596993065%, transparent 22.388851682060018%), radial-gradient(circle at 40% 104%, hsla(37.05882352941177, 100%, 50%, 1) 3.985353824694249%, transparent 47.580278608924694%), radial-gradient(circle at 0% 60%, hsla(224.44444444444443, 72%, 36%, 1) 2.391200382592061%, transparent 29.307684556768592%), radial-gradient(circle at 92% 37%, hsla(248.30769230769235, 52%, 24%, 1) 2.9253667596993065%, transparent 22.388851682060018%), radial-gradient(circle at 101% 16%, hsla(212.47058823529412, 100%, 50%, 1) 13.173642363290591%, transparent 31.747336520355095%), radial-gradient(circle at 104% 56%, hsla(29.117647058823533, 71%, 60%, 1) 3.985353824694249%, transparent 13.103042116379756%), radial-gradient(circle at 97% 19%, hsla(219.2079207920792, 83%, 23%, 1) 18.597054544690312%, transparent 31%);
+    background-blend-mode: normal, normal, normal, normal, normal, normal, normal, normal, normal;
+        img{
+            padding: 30px;
+            width: 500px;
+            border-radius: 55px;
+        }
+}
+
+.subtitulo-parrafo {
+    color: #ffece4;
+    text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black,
+     0 0 10px #813c0e,
+     0 0 20px #813c0e,
+     0 0 40px #813c0e;
+     font-size: 20px;
+     max-width: 800px;
+            h2{
+                font-size: 30px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    color:#ffece4;
+    text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black,
+     0 0 10px #813c0e,
+     0 0 20px #813c0e,
+     0 0 40px #813c0e;
+     font-family:"Bebas Neue", sans-serif;
+            }
+}
+
+
+.pedir{
+    background-color: hsla(187, 95%, 9%, 1);
+    background-image: radial-gradient(circle at 12% 95%, hsla(0, 82%, 24%, 1) 11.233076274761304%, transparent 48.917760458821476%), radial-gradient(circle at 59% 89%, hsla(17, 65%, 48%, 1) 4.468828236460163%, transparent 45.936928445147885%), radial-gradient(circle at 98% 97%, hsla(180, 100%, 19%, 1) 9.099243699928666%, transparent 43.20400317747202%), radial-gradient(circle at 58% 24%, hsla(17, 43%, 13%, 1) 8.34456194441396%, transparent 45.21029724710546%), radial-gradient(circle at 85% 18%, hsla(212.75735294117646, 82%, 17%, 1) 8.34456194441396%, transparent 45.21029724710546%);
+    background-blend-mode: normal, normal, normal, normal, normal;
+    padding-bottom:20px ;
+}
+
+.row {
+  display: flex !important;
+  justify-content: center !important;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+  width: 80%;
+}
+
+.card-title{
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.card-body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Forum", serif;
+}
+
+.boton-tarjeta-pedir{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #710B0B;
+    color: white;
+    padding: 8px 16px;
+    font-family: "Bebas Neue", sans-serif;
+    border: none;
+}
+
+.boton-tarjeta-pedir:hover{
+    background-color: #006363;
+}
+
+.preguntas-frecuentes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    flex-grow: 1;
+    align-items: center;
+    padding: 2rem;
+}
+.accordion {
+    margin: 25px;
+    flex-direction: column;
+    max-width: 800px;
+    width: 100%;
+}
+
+.accordion-item{
+    width: 100%;
+}
+
+
+.accordion-header{
+    padding-top: 0;
+    padding-left: 0;
+}
+
+.preguntas-frecuentes{
+    img {
+            width: 270px;
+    }
+    
+}
+
+/*!---------ESILOS MENU--------*/
+
+.titulo-menu{
+    font-size: 75px;
+    margin-bottom: 30px;
+    align-items: center;
+    padding-left: 0;
+    padding-top: 30px;
+    color: #f7e693;
+    text-shadow:
+    -1px -1px 0 #01161E,
+     1px -1px 0 #01161E,
+    -1px  1px 0 #01161E,
+     1px  1px 0 #01161E,
+     0 0 10px #ffece4,
+     0 0 20px #CC592B,
+     0 0 40px #6d6461;
+}
+
+
+/**----FOOTER-------------*/
+
+footer{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px ;
+    color: #01161E;
+    background-color: #CC592B;
+    width: 100%;
+    margin-top: auto;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding-top: 15px;
+
+    a{
+        text-decoration: none;
+    color: #006363;
+    text-shadow:
+    -1px -1px 0 #fff,
+     1px -1px 0 #fff,
+    -1px  1px 0 #fff,
+     1px  1px 0 #fff,
+     0 0 10px #006363,
+     0 0 20px #006363,
+     0 0 40px #006363;
+    }
+}
+
