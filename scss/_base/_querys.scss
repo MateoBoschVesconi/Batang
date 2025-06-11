@@ -1,0 +1,219 @@
+@media screen and (max-width: 1020px) {
+    main section h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 90px;
+    padding-left: 80px;
+    text-shadow:
+    -1px -1px 0 #01161E,
+     1px -1px 0 #01161E,
+    -1px  1px 0 #01161E,
+     1px  1px 0 #01161E,
+     0 0 10px #CC592B,
+     0 0 20px #CC592B,
+     0 0 40px #CC592B;
+}
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../img/t_5e1d6f86c1bd5.webp');
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #CC592B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.hero button {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+    width: 150px;
+    margin-top: 75px;
+    margin-left: 150px;
+    padding: 10px  20px;
+    background-color: #710B0B;
+    color: #01161E;
+    border: none;
+    border-radius: 7px;
+    transition-timing-function: cubic-bezier(0.84, -0.63, 0.05, 1.87);
+  transition-property: width;
+  transition-duration: 0.5s;
+
+}
+
+.hero button:hover {
+  width: 20%;
+}
+
+.orden-tarjetas{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+.redes{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 15px;
+}
+
+.delivery{
+    background: linear-gradient(rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.514)),
+    url('../img/ventajas-servicio-entrega-domicilio.jpg');
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.delivery button {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+    width: 150px;
+    margin-top: 75px;
+    margin-left: 0px;
+    padding: 10px  20px;
+    background-color: #006363;
+    color: #01161E;
+    border: none;
+    border-radius: 7px;
+    position: static;
+    transition-timing-function: cubic-bezier(0, 1.13, 0.32, 1.28);
+  transition-property: width;
+  transition-duration: 0.5s;
+
+}
+
+.delivery button:hover {
+  width: 17%;
+}
+
+
+}
+
+@media screen and (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: center;
+} 
+
+.delivery button{
+    transition-duration: 0.3s;
+}
+
+.delivery button:hover {
+  width: 17%;
+}
+
+
+} 
+
+@media screen and (max-width: 765px) {
+    .contenido-sobre-nosotros{
+        text-align: center;
+
+    }
+     .contenido-sobre-nosotros p {
+        max-width: 560px;
+     }
+     .subtitulo-parrafo p {
+        max-width: 560px;
+        text-align: center;
+     }
+}
+
+
+@media screen and (max-width: 675px) {
+    .orden-tarjetas{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    gap: 25px;
+}
+.redes{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+    
+} 
+
+@media screen and (max-width: 559px){
+     .contenido-sobre-nosotros p {
+        max-width: 400px;
+     }
+
+     .subtitulo-parrafo p {
+        max-width: 400px;
+        text-align: center;
+     }
+
+
+} 
+
+
+@media screen and (max-width: 439px){
+    .sponsors-titulo{
+        font-size: 58px;
+    }
+    main section h2{
+    padding-left: 30px;
+
+    }
+    .modalidad-atencion img {
+        width: 450px;
+    }
+
+}
+
+@media screen and (max-width: 429px){
+
+    .delivery button:hover {
+    width: 40%;
+}
+
+
+    .subtitulo-parrafo h2{
+        text-align: center;
+     }
+}
+
+@media screen and (max-width: 400px){
+    .contenido-sobre-nosotros p{
+        max-width: 250px;
+        margin-left: 5px;
+    }
+
+    .subtitulo-parrafo p {
+        max-width: 250px;
+        text-align: center;
+        margin-left: 75px;
+     }
+     .subtitulo-parrafo h2{
+        text-align: center;
+     }
+}
+
+@media screen and (max-width: 389px){
+    .modalidad-atencion img {
+        width: 390px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .subtitulo-parrafo p {
+        margin-left: 56px;
+     }
+}
