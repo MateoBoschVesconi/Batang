@@ -170,6 +170,13 @@ main section h2 {
     color: #01161E;
     border: none;
     border-radius: 7px;
+    transition-timing-function: cubic-bezier(0,1.13,.32,1.28);
+    transition-property: width;
+    transition-duration: 0.5s;
+}
+
+.tarjeta button:hover {
+    width: 55%;
 }
 
 .delivery{
@@ -206,8 +213,15 @@ main section h2 {
     border: none;
     border-radius: 7px;
     align-items: center;
+    transition-timing-function: cubic-bezier(0,1.13,.32,1.28);
+    transition-property: width;
+    transition-duration: 0.5s;
 
 }
+.delivery button:hover {
+    width: 17%;
+}
+
 .delivery button a {
     text-decoration: none;
     color: #CC592B;
@@ -319,6 +333,14 @@ body{
     margin-bottom: 0px;
     margin-left: auto;
   width: 80%;
+}
+
+
+.card:hover {
+    transform: scale(1.010);
+    box-shadow: 4px 8px 35px -16px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 4px 8px 35px -16px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 8px 35px -16px rgba(0,0,0,0.75);
 }
 
 
