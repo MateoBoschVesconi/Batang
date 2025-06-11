@@ -105,8 +105,18 @@ main section h2 {
     color: #01161E;
     border: none;
     border-radius: 7px;
+    transition-timing-function: cubic-bezier(.84,-0.63,.05,1.87);
+    transition-property: width;
+    transition-duration: 0.5s;
+
 
 }
+
+.hero button:hover{
+
+    width: 15%;
+}
+
 .hero button a {
     text-decoration: none;
     color: #CC592B;
