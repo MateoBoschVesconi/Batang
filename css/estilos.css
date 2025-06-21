@@ -277,8 +277,12 @@ body {
   width: 80%;
 }
 
+.card {
+  transition: 0.5s;
+}
+
 .card:hover {
-  transform: scale(1.01);
+  transform: scale(1.05);
   box-shadow: 4px 8px 35px -16px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 4px 8px 35px -16px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 4px 8px 35px -16px rgba(0, 0, 0, 0.75);
@@ -365,11 +369,16 @@ footer {
   justify-content: center;
   gap: 200px;
   padding-top: 15px;
+  padding-bottom: 15px;
 }
 .redes a {
   text-decoration: none;
   color: #006363;
   text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff, 0 0 10px #006363, 0 0 20px #006363, 0 0 40px #006363;
+}
+
+.logos_redes {
+  width: 50px;
 }
 
 @media screen and (max-width: 1020px) {
@@ -378,7 +387,7 @@ footer {
     flex-direction: column;
     align-items: center;
     font-size: 90px;
-    padding-left: 80px;
+    padding-left: 0px;
     text-shadow: -1px -1px 0 #01161E, 1px -1px 0 #01161E, -1px 1px 0 #01161E, 1px 1px 0 #01161E, 0 0 10px #CC592B, 0 0 20px #CC592B, 0 0 40px #CC592B;
   }
   .hero {
@@ -397,7 +406,7 @@ footer {
     font-size: 25px;
     width: 150px;
     margin-top: 75px;
-    margin-left: 150px;
+    margin-left: 0px !important;
     padding: 10px 20px;
     background-color: #710B0B;
     color: #01161E;
